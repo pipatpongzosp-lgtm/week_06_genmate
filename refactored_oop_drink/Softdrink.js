@@ -1,8 +1,8 @@
 const Drink = require("./Drink.js");
 
 class Softdrink extends Drink {
-  constructor(name, type, onHand, sugar) {
-    super(name, type, onHand);
+  constructor(name, type, price, onHand, sugar) {
+    super(name, type, price, onHand);
     this.sugar = sugar;
   }
 }
