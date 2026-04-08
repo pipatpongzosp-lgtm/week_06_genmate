@@ -1,9 +1,9 @@
 const Shop = require("./Shop.js");
-const Beer = require("./Beer.js");
-const Juice = require("./Juice.js");
-const Coffee = require("./Coffee.js");
-const Softdrink = require("./Softdrink.js");
-const Tea = require("./Tea.js");
+const Beer = require("./drink/Beer.js");
+const Juice = require("./drink/Juice.js");
+const Coffee = require("./drink/Coffee.js");
+const Softdrink = require("./drink/Softdrink.js");
+const Tea = require("./drink/Tea.js");
 
 const Genmate5shop = new Shop("Genmate 5 Drink Shop");
 
