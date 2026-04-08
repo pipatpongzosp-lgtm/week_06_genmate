@@ -5,6 +5,7 @@ class Drink {
     this.onHand = onHand;
   }
 }
+module.exports = Drink;
 
 //Add sub class
 //Mzx ->Beer->defree, Give->Softdrink->sugar, Palm->Juice->madeFrom, O'->Tea->fromCountry, Weaw->Coffee->beanType
